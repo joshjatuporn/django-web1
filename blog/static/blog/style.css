@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 32px;
+}
+p {
+    font-family: 'verdan',sans-serif;
+    color: wheat;
+}

@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+
+{% block title %}<title>Contact us | Django</title>{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <br>
+   <h1>Contact us</h1>
+   <br>
+   <p>Hello, Django Form</p>
+
+   <form method="POST" action="{% url 'contact' %}">
+     {% csrf_token %}
+     {{ form.as_p }}
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form> 
+</div>
+
+{% endblock %}
